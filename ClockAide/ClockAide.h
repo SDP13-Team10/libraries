@@ -12,10 +12,11 @@
 
 // Modes
 #define NORMAL 				0
-#define CHECK_ID			1
+#define AUTH				1
 #define READ				2
 #define SET					3
 #define TEACHER				4
+#define ADMIN				5
 
 // Commands
 #define GOOD				0
@@ -24,9 +25,10 @@
 #define GET_TIME			3
 #define RESET				4
 #define SPEAK_TIME			5
-#define ACK					6
-#define NAK					7
-#define DATA				8
+#define MORE				6
+#define ACK					7
+#define NAK					8
+#define DATA				9
 
 
 
